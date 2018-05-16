@@ -31,10 +31,11 @@ void draw() {
        delta = 5;
      }
      if (y == height -25) {
-       delta = -5;
+       delta1 = -5;
      }
      if (y == 25) {
-       delta = 5;
+       delta1 = 5;
      }
+     fill(25);
 
 }
