@@ -10,6 +10,7 @@ int x = 350;
 int y = 250;
 int delta = 5;
 int c = 0;
+int delta1 = 5;
 
 void setup() {
   size(700, 500); // Size of canvas
@@ -22,6 +23,7 @@ void draw() {
      ellipse(x,250,50,50);
      ellipse(350,y,50,50);
      x = x + delta;
+     y = y + delta1;
      if ( x == width-25){
      delta = -5;
    }
