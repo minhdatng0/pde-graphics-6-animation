@@ -17,7 +17,7 @@ void setup() {
 }
 
 void draw() {
-  // Your program will be here...
-  
-  // Do not forget comments!
+   ellipseMode(CENTER);
+   
+
 }
