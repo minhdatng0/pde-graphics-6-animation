@@ -9,7 +9,7 @@
 int x = 350;
 int y = 250;
 int delta = 5;
-int c = 0;
+int c = 255;
 int delta1 = 5;
 
 void setup() {
@@ -36,6 +36,6 @@ void draw() {
      if (y == 25) {
        delta1 = 5;
      }
-     fill(25);
+     fill(c);
 
 }
