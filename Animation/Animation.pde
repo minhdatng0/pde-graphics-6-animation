@@ -30,5 +30,11 @@ void draw() {
      if (x == 25){
        delta = 5;
      }
+     if (y == height -25) {
+       delta = -5;
+     }
+     if (y == 25) {
+       delta = 5;
+     }
 
 }
