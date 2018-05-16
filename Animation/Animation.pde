@@ -19,6 +19,6 @@ void setup() {
 void draw() {
    background(100, 10, 100); 
     ellipseMode(CENTER);
-   
+     ellipse(x,y,50,50);
 
 }
