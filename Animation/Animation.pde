@@ -20,7 +20,10 @@ void draw() {
    background(100, 10, 100); 
     ellipseMode(CENTER);
      ellipse(x,y,50,50);
-     x = x +delta;
-     
+     x = x + delta;
+     if ( x == width-25){
+     delta = -5;}
+     if (x == 25){
+       delta = 5;}
 
 }
