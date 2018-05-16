@@ -6,7 +6,10 @@
 * Basic Animation 
 */
 
-
+int x = 350;
+int y = 250;
+int delta = 5;
+int c = 0;
 
 void setup() {
   size(700, 500); // Size of canvas
