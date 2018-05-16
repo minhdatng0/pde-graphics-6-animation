@@ -38,6 +38,10 @@ void draw() {
      }
      fill(c);
      c = c - d; 
+     if ( c == 20 ){
+     d = -5;}
+     if ( c == 255){
+     d = 5;}
 
 
 }
