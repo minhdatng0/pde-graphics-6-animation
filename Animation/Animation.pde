@@ -11,7 +11,7 @@ int y = 250;
 int delta = 5;
 int c = 255;
 int delta1 = 5;
-
+int d = 5;
 void setup() {
   size(700, 500); // Size of canvas
   background(100, 10, 100); // Background color as rgb values
@@ -37,5 +37,7 @@ void draw() {
        delta1 = 5;
      }
      fill(c);
+     c = c - d; 
+
 
 }
